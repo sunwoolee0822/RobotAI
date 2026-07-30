@@ -1,0 +1,5 @@
+[TYPECHECK]
+# pandas builds DatetimeIndex accessors (.hour, .date, .dayofweek, ...) dynamically,
+# so pylint's static inference reports them as no-member (E1101) false positives.
+ignored-classes = DatetimeIndex,Timestamp
+generated-members = pandas.*
