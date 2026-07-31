@@ -15,10 +15,11 @@ wandb/
 checkpoints/
 *.ckpt
 *.pth
+*.csv
 
 # ── 분석 결과물 (그림/표) ──────────────────────────────────────
 analysis_336/
-analysis_72/
+# analysis_72/
 analysis/**/*.png
 analysis/**/*.pdf
 analysis/**/*.svg
